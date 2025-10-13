@@ -1,51 +1,27 @@
 {
-  "id": "bretenwalda",
-  "title": "Bretenwalda",
-  "description": "Custom ACKS II version for Bretenwalda Grand Campaign for FoundryVTT",
-  "authors": [
-    {
-      "name": "Snarls-at-Fleas",
-      "discord": "snarlsatfleas"
-    }    
-  ],
-  "url": "https://github.com/Snarls-at-Fleas/Bretenwalda",
-  "license": "LICENSE.txt",
-  "readme": "README.md",
-  "bugs": "https://github.com/Snarls-at-Fleas/Bretenwalda/issues",
-  "media": [
-    {
-      "type": "setup",
-      "url": "systems/bretenwalda/assets/dungeon.png",
-      "thumbnail": "systems/bretenwalda/assets/dungeon.png"
-    }
-  ],
-  "version": "0.0.1",
-  "compatibility": {
-    "minimum": 13,
-    "verified": "13.350"
-  },
-  "esmodules": ["module/bretenwalda.mjs"],
-  "styles": ["css/bretenwalda.css"],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
+    "name": "bretewalda",
+    "title": "ACKS II Bretenwalda",
+    "description": "My version of ACKS II systems by Archon Studios to use with my home Bretenwalda Grand Campaign",
+    "author": "Snarls-at-Fleas",
+    "version": 0.01,
+    "compatibility": {
+        "minimum": 13,
+        "verified": "13.350"
     },
-    {
-      "lang": "ru",
-      "name": "Русский",
-      "path": "lang/ru.json"
-    }
-  ],
-  "packs": [],
-  "packFolders": [],
-  "socket": false,
-  "manifest": "https://github.com/Snarls-at-Fleas/Bretenwalda/blob/main/system.json",
-  "download": "https://github.com/Snarls-at-Fleas/Bretenwalda/blob/main/Bretenwalda-main.zip",
-  "background": "systems/bretenwalda/assets/dungeon.png",
-  "gridDistance": 3,
-  "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power"
+    "esmodules": [
+        "bretewalda.js"
+    ],
+    "styles": [
+        "bretewalda.css"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "gridDistance": 3,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "hp",
+    "initiative": "1d6 + @dex"
 }
