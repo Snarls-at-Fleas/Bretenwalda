@@ -42,9 +42,9 @@
   "packFolders": [],
   "socket": false,
   "manifest": "https://github.com/Snarls-at-Fleas/Bretenwalda/blob/main/system.json",
-  "download": "This must link to a .zip file of the current version",
+  "download": "https://github.com/Snarls-at-Fleas/Bretenwalda/blob/main/Bretenwalda-main.zip",
   "background": "systems/bretenwalda/assets/dungeon.png",
-  "gridDistance": 5,
+  "gridDistance": 3,
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power"
