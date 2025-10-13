@@ -8,16 +8,15 @@
       "discord": "snarlsatfleas"
     }    
   ],
-  "url": "Replace this with a link to your public repository",
+  "url": "https://github.com/Snarls-at-Fleas/Bretenwalda",
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "bugs": "Replace this with a link to file issues or tickets",
-  "changelog": "CHANGELOG.md",
+  "bugs": "https://github.com/Snarls-at-Fleas/Bretenwalda/issues",
   "media": [
     {
       "type": "setup",
-      "url": "systems/bretenwalda/assets/anvil-impact.png",
-      "thumbnail": "systems/bretenwalda/assets/anvil-impact.png"
+      "url": "systems/bretenwalda/assets/dungeon.png",
+      "thumbnail": "systems/bretenwalda/assets/dungeon.png"
     }
   ],
   "version": "0.0.1",
@@ -42,9 +41,9 @@
   "packs": [],
   "packFolders": [],
   "socket": false,
-  "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
+  "manifest": "https://github.com/Snarls-at-Fleas/Bretenwalda/blob/main/system.json",
   "download": "This must link to a .zip file of the current version",
-  "background": "systems/bretenwalda/assets/anvil-impact.png",
+  "background": "systems/bretenwalda/assets/dungeon.png",
   "gridDistance": 5,
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
