@@ -1,4 +1,42 @@
 {
     "Actor": {},
-    "Item": {}
+    "Item": {
+        "types": [
+            "weapon",
+            "armor"
+        ],
+        "templates": {
+            "itemDescription": {
+                "description": ""
+            }
+        },
+        "weapon": {
+            "templates": [
+                "itemDescription"
+            ],
+            "size": "Medium",
+            "melee": true,
+            "missile": true,
+            "damage": "1d6",
+            "encumbrance": 1,
+            "missileShort": 30,
+            "missileMedium": 60,
+            "missileLong": 120,
+            "cost": 3,
+            "keywords": [
+                "Impact", "Long", "Thrown"
+            ]
+            }
+        },
+        "armor": {
+            "templates": [
+                "itemDescription"
+            ],
+            "type": "Light",
+            "shield": false,
+            "helmet": false,
+            "encumbrance": 2,
+            "cost": 20,
+            "keywords": []
+        }
 }
