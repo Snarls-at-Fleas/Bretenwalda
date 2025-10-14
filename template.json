@@ -2,15 +2,15 @@
     "Actor": {},
     "Item": {
         "types": [
-            "weapon",
-            "armor"
+            "Weapon",
+            "Armor"
         ],
         "templates": {
             "itemDescription": {
                 "description": ""
             }
         },
-        "weapon": {
+        "Weapon": {
             "templates": [
                 "itemDescription"
             ],
@@ -26,9 +26,8 @@
             "keywords": [
                 "Impact", "Long", "Thrown"
             ]
-            }
         },
-        "armor": {
+        "Armor": {
             "templates": [
                 "itemDescription"
             ],
@@ -39,4 +38,5 @@
             "cost": 20,
             "keywords": []
         }
+    }
 }
