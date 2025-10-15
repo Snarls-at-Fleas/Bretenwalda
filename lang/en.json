@@ -1,0 +1,23 @@
+{
+    "bretenwalda": {
+        "weaponSize": {
+            "none": "",
+            "tiny": "Tiny",
+            "small": "Small",
+            "medium": "Medium",
+            "large": "Large"
+        },
+        "Weapon": {
+            "size": "Size",
+            "melee": "Melee",
+            "missile": "Missile",
+            "damage": "Damage",
+            "encumbrance": "Encumbrance",
+            "missileShort": "Short Range",
+            "missileMedium": "Medium Range",
+            "missileLong": "Long Range",
+            "cost": "Cost",
+            "keywords": "Keywords"
+        }
+    }
+}

@@ -23,7 +23,11 @@
 
     ],
     "languages": [
-
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
     ],
     "gridDistance": 3,
     "gridUnits": "ft",
