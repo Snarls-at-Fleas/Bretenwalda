@@ -4,12 +4,11 @@
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
     <div>
-        <table>
-            <tr>
-                <th>{{localize 'bretenwalda.Weapon.size'}}</th>
-                <th>{{localize 'bretenwalda.Weapon.damage'}}</th>
-                <th>{{localize 'bretenwalda.Weapon.cost'}}</th>
-            </tr>
-        </table>
+        <p>
+            {{localize 'bretenwalda.Weapon.medium'}} {{localize 'bretenwalda.Weapon.melee'}} {{localize 'bretenwalda.Weapon.missile'}} {{localize 'bretenwalda.Weapon.weapon'}}
+        </p>
+        <p>
+            {{localize 'bretenwalda.Weapon.damage'}}: Item.Weapon.damage
+        </p>
     </div>
 </form>

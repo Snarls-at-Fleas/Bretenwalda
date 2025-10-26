@@ -17,7 +17,9 @@
             "missileMedium": "Medium Range",
             "missileLong": "Long Range",
             "cost": "Cost",
-            "keywords": "Keywords"
+            "keywords": "Keywords",
+            "medium": "Medium",
+            "weapon": "weapon"
         }
     }
 }
