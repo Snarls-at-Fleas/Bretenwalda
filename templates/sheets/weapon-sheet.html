@@ -1,14 +1,28 @@
-<form class="{{cssClass}}" autocomplete="off">
-    <header class="sheet-header">
-        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
-        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
-    </header>
+<form autocomplete="off">
+    <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
     <div>
-        <p>
-            {{localize 'bretenwalda.Weapon.medium'}} {{localize 'bretenwalda.Weapon.melee'}} {{localize 'bretenwalda.Weapon.missile'}} {{localize 'bretenwalda.Weapon.weapon'}}
+        <p class="weaponSubheader">
+            Melee/Missile Medium weapon
         </p>
         <p>
-            {{localize 'bretenwalda.Weapon.damage'}}: Item.Weapon.damage
+            Damage: 1d6
         </p>
+        <p>
+            Range (S/M/L): 30/60/120
+        </p>
+        <p>
+            Cost: 3 gp
+        </p>
+        <p>
+            Encumbrance: 1 stone
+        </p>
+        <p>
+            Impact, Long, Thrown
+        </p>
+        <p>
+            Special: This weapon is +1 to attack and damage
+        </p>
+        <p class="itemDescription">
+            Wooden shafts, 6’ to 8’ in length, with metal heads designed for thrusting, spears are the main weapon of the common soldier. Spears can be used one- or two-handed. Characters armed with spears can attack from behind an ally and inflict double damage when used in or against a charge. However, any attack throw of natural 1 made with a spear breaks its shaft. Historical examples include the Hoplite doru, the medieval winged spear, and the Japanese yari. Spears are, by far, the most common weapon in the Auran Empire, used by every race and realm.</p>
     </div>
 </form>
