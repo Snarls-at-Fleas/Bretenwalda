@@ -1,5 +1,19 @@
+.weaponMainStats {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 22px 22px 22px;
+}
+
 .weaponSubheader {
     font-weight: bold;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.weaponImage {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .itemDescription {
