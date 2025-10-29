@@ -5,7 +5,9 @@
 }
 
 .weaponSubheader {
+    display: grid;
     font-weight: bold;
+    font-size: large;
     grid-column-start: 2;
     grid-column-end: 4;
 }
@@ -13,9 +15,17 @@
 .weaponImage {
     grid-column-start: 1;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: span 4;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 5px 5px 5px gray;
+}
+.weaponKeywords {
+    font-style: italic;
+    font-size: medium;
 }
 
 .itemDescription {
-    font-style: italic;
+    background-color: darkgrey;
+    font-size: small;
 }
