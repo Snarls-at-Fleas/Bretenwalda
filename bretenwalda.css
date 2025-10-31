@@ -7,8 +7,6 @@
 
 .weaponSubheader {
     display: grid;
-    font-weight: bold;
-    font-size: medium;
     grid-column-start: 2;
     grid-column-end: 4;
 }
@@ -20,15 +18,33 @@
     border-color: black;
     border-width: 2px;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 2px 2px 2px gray;
 }
 .weaponKeywords {
-    font-size: medium;
-    font-weight: bold;
     grid-column-start: 2;
     grid-column-end: 4;
 }
 
+.weaponSpecialRule {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 .itemDescription {
     font-size: small;
+}
+
+.itemCostAndEncumbrance {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: small;
+}
+
+.cost {
+    justify-self: start;
+}
+
+.encumbrance {
+    justify-self: end;
 }
