@@ -7,25 +7,26 @@
         ],
         "templates": {
             "itemDescription": {
-                "description": ""
+                "description": "Wooden shafts, 6’ to 8’ in length, with metal heads designed for thrusting, spears are the main weapon of the common soldier. Spears can be used one- or two-handed. Characters armed with spears can attack from behind an ally and inflict double damage when used in or against a charge. However, any attack throw of natural 1 made with a spear breaks its shaft. Historical examples include the Hoplite doru, the medieval winged spear, and the Japanese yari. Spears are, by far, the most common weapon in the Auran Empire, used by every race and realm."
             }
         },
         "Weapon": {
-            "templates": [
-                "itemDescription"
-            ],
+            "damage": "1d6",
+            "rangeShort": 30,
+            "rangeMedium": 60,
+            "rangeLong": 120,
             "size": "Medium",
             "melee": true,
             "missile": true,
-            "damage": "1d6",
-            "encumbrance": 1,
-            "missileShort": 30,
-            "missileMedium": 60,
-            "missileLong": 120,
-            "cost": 3,
             "keywords": [
                 "Impact", "Long", "Thrown"
-            ]
+            ],
+            "special": "Special: any attack throw of natural 1 made with a spear breaks its shaft.",
+            "templates": [
+                "itemDescription"
+            ],
+            "cost": 3,
+            "encumbrance": 6
         },
         "Armor": {
             "templates": [
