@@ -12,6 +12,7 @@
         },
         "Weapon": {
             "damage": "1d6",
+            "damage2handed": "1d8",
             "rangeShort": 30,
             "rangeMedium": 60,
             "rangeLong": 120,
