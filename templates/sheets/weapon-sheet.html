@@ -5,23 +5,23 @@
         </h1>
         <div class="weaponMainStats">
             <p>
-                Damage: 1d6/1d8(2H)
+                Damage: {{config.Item.Weapon.damage}}/{{config.Item.Weapon.damage2handed}}(2H)
             </p>
             <p>
-                Range (S/M/L): 30/60/120
+                Range (S/M/L): {{config.Item.Weapon.rangeShort}}/{{config.Item.Weapon.rangeMedium}}/{{config.Item.Weapon.rangeLong}}
             </p>
             <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="66" width="66" class="weaponImage"/>
             <p class="weaponSubheader">
-                Medium Melee/Missile weapon
+                {{config.Item.Weapon.size}}{{#if config.Item.Weapon.melee}} Melee{{/if}}{{#if config.Item.Weapon.missile}}{{#if config.Item.Weapon.melee}}/{{else}} {{/if}}Missile{{/if}} weapon
             </p>
             <p class="weaponKeywords">
-                Impact &#9670; Long &#9670; Thrown
+                {{#each config.Item.Weapon.keywords}}{{this}}{{#unless @last}} &#9670; {{/unless}}{{/each}}
             </p>
         </div>
         <hr>    
         <div class="weaponSpecialRule">
             <p>
-                Special: any attack throw of natural 1 made with a spear breaks its shaft.
+                Special: {{config.Item.Weapon.special}}
             </p>
         </div>
         <hr>
@@ -31,10 +31,10 @@
         <hr>
         <div class="itemCostAndEncumbrance">
             <p class="cost">       
-                Cost: 3 gp
+                Cost: {{config.Item.Weapon.cost}} gp
             </p>
             <p class="encumbrance">
-                Encumbrance: 1 stone
+                Encumbrance: {{formatEncumbrance config.Item.Weapon.encumbrance}}
             </p>
         </div>
     </div>
