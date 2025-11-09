@@ -20,7 +20,13 @@
         "bretenwalda.css"
     ],
     "packs": [
-
+        {
+            "name": "weapons",
+            "label": "Weapons",
+            "system": "bretenwalda",
+            "type": "Item",
+            "path": "packs/weapons"
+        }       
     ],
     "languages": [
         {

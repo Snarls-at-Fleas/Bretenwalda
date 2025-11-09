@@ -20,8 +20,7 @@
             "melee": true,
             "missile": true,
             "keywords": [
-                "Impact", "Long", "Thrown", "Nasty"
-            ],
+                "Impact", "Long", "Thrown"            ],
             "special": "any attack throw of natural 1 made with a spear breaks its shaft.",
             "templates": [
                 "itemDescription"

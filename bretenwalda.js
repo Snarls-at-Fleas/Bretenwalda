@@ -17,9 +17,9 @@ Hooks.once("init", async function() {
         } else {
             const stones = Math.floor(value / 6);
             const remainder = value % 6;
-            let result = stones + " stone";
+            let result = stones + (stones === 1 ? " stone" : " stones");
             if (remainder > 0) {
-                result += " " + remainder + " items";
+                result += " " + remainder + (remainder === 1 ? " item" : " items");
             }
             return result;
         }
